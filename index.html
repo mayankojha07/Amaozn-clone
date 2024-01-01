@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <div class="navbar" id="navigation">
+        <!-- Logo -->
+        <div class="nav-logo border">
+          <div class="logo"></div>
+        </div>
+
+        <!-- Nav Address -->
+        <div class="nav-address border">
+          <p class="add-first">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-second">India</p>
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="nav-search">
+          <select name="" id="search-select">
+            <option value="">All</option>
+          </select>
+          <input
+            type="text"
+            name=""
+            id="search-input"
+            placeholder="Search Amazon"
+          />
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+
+        <!-- Nav Language -->
+        <div class="nav-lang border">
+          <div class="lang-container">
+            <img src="images/us-flag.png" alt="US" />
+            <p class="lang-name">EN</p>
+            <i class="fa-solid fa-sort-down" id="lang-icon"></i>
+          </div>
+        </div>
+
+        <!-- Nav Sign-In -->
+        <div class="nav-signin border">
+          <p><span class="sign-in-span">Hello, Sign in</span></p>
+          <p class="nav-second">Accounts & Lists</p>
+        </div>
+
+        <!-- Nav Return -->
+        <div class="nav-return border">
+          <p><span class="sign-in-span">Returns</span></p>
+          <p class="nav-second">& Orders</p>
+        </div>
+
+        <!-- Nav Cart -->
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </div>
+      </div>
+
+      <div class="panel">
+        <div class="panel-all border">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+
+        <div class="panel-ops">
+          <p class="border">Today's Deals</p>
+          <p class="border">Registry</p>
+          <p class="border">Customer Service</p>
+          <p class="border">Gift</p>
+          <p class="border">Cards</p>
+          <p class="border">Sell</p>
+        </div>
+
+        <div class="panel-deals border">Shop deals in Electronics</div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div class="hero-section-msg">
+        You are on amazon.com. You can also shop on Amazon India for millions of
+        products with fast local delivery.
+        <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in">
+          Click here to go to amazon.in
+        </a>
+      </div>
+    </div>
+
+    <!-- Shop Section -->
+    <div class="shop-section">
+      <div class="box">
+        <div class="box-content">
+          <h2>Top Picks</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box1_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Health & Personal Care</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box2_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Upgrade your furniture</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box3_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Smart Phone</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box4_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Beauty Picks</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box5_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Pet Care</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box6_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Toys under 25$</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box7_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+      <div class="box">
+        <div class="box-content">
+          <h2>Discover Fashion Trends</h2>
+          <div
+            class="box-img"
+            style="background-image: url('/images/box8_image.jpg')"
+          ></div>
+          <a href="" id="box-link">See more</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <a href="#navigation" class="footer-navigate-link">Back To Top</a>
+
+      <div class="footer-second-panel">
+        <div class="footer-links-panel">
+          <ul>
+            <p>Get to Know Us</p>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">About Amazon </a></li>
+            <li><a href="">Investor Relations</a></li>
+            <li><a href="">Amazon Devices</a></li>
+            <li><a href=""> Amazon Science</a></li>
+          </ul>
+
+          <ul>
+            <p>Make Money with Us</p>
+            <li><a href="">Sell products on Amazon</a></li>
+            <li><a href="">Sell on Amazon Business</a></li>
+            <li><a href="">Sell apps on Amazon</a></li>
+            <li><a href="">Become an Affiliate</a></li>
+            <li><a href="">Advertise Your Products</a></li>
+            <li><a href="">Self-Publish with Us</a></li>
+            <li><a href=""> Host an Amazon Hub</a></li>
+            <li><a href=""> See More Make Money with Us</a></li>
+          </ul>
+
+          <ul>
+            <p>Amazon Payment Products</p>
+            <li><a href="">Amazon Business Card</a></li>
+            <li><a href="">Shop with Points</a></li>
+            <li><a href="">Reload Your Balance </a></li>
+            <li><a href="">Amazon Currency Converter</a></li>
+          </ul>
+
+          <ul>
+            <p>Let Us Help You</p>
+            <li><a href="">Amazon and COVID-19</a></li>
+            <li><a href="">Your Account</a></li>
+            <li><a href="">Your Orders </a></li>
+            <li><a href="">Shipping Rates & Policies</a></li>
+            <li><a href="">Returns & Replacements</a></li>
+            <li><a href=""> Manage Your Content and Devices</a></li>
+            <li><a href=""> Amazon Assistant</a></li>
+            <li><a href=""> Help</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-logo-panel">
+        <div class="logo"></div>
+
+        <div class="panel-second">
+          <div class="footer-lang-panel">
+            <i class="fa-solid fa-globe"></i>
+            <span>English</span>
+            <i class="fa-solid fa-up-down"></i>
+          </div>
+
+          <div class="footer-lang-panel">
+            <span> $ USD - U.S. Dollar </span>
+          </div>
+          <div class="footer-lang-panel">
+            <img src="/images/us-flag.png" alt="" width="18px" height="12px" />
+            <span> United States </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table of link content -->
+      <div class="footer-nav-table">
+        <table class="link-table">
+          <tbody class="link-table-body">
+            <tr>
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Amazon music <br />
+                  <span class="footer-nav-itemText">
+                    Stream millions <br />
+                    of songs
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Amazon Ads <br />
+                  <span class="footer-nav-itemText">
+                    Reach customers <br />
+                    whenever they <br />
+                    spend thier time
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  6pm <br />
+                  <span class="footer-nav-itemText">
+                    Score deals <br />
+                    on fashion brands
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  AbeBooks<br />
+                  <span class="footer-nav-itemText">
+                    Books, art <br />
+                    & collectibles
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  ACX<br />
+                  <span class="footer-nav-itemText">
+                    Audiobook Publishing <br />
+                    Made Easy
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Sell on Amazon<br />
+                  <span class="footer-nav-itemText">
+                    Start a Selling Account
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Amazon Business<br />
+                  <span class="footer-nav-itemText">
+                    Everything For <br />
+                    Your Business
+                  </span>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-gap">&nbsp;</td>
+            </tr>
+
+            <tr>
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  AmazonGlobal<br />
+                  <span class="footer-nav-itemText">
+                    Ship Orders <br />
+                    Internationally
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Home Services
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Experienced Pros <br />
+                    Happiness Guarantee
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Amazon Web Services <br />
+                  <span class="footer-nav-itemText">
+                    Scalable Cloud <br />
+                    Computing Services
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Audible
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Listen to Books & Original <br />
+                    Audio Performances
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Box Office Mojo
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Find Movie<br />
+                    Box Office Data
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Goodreads
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Book reviews <br />
+                    & recommendations
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  IMDb
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Movies, TV <br />
+                    & Celebrities
+                  </span>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-gap">&nbsp;</td>
+            </tr>
+
+            <tr>
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  IMDbPro
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Get Info Entertainment <br />
+                    Professionals Need
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Kindle Direct Publishing
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Indie Digital & Print Publishing <br />
+                    Made Easy
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Prime Video Direct
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Video Distribution <br />
+                    Made Easy
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Shopbop
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Designer<br />
+                    Fashion Brands
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Woot!
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Deals and<br />
+                    Shenanigans
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Zappos
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Shoes &<br />
+                    Clothing
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Ring
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Smart Home <br />
+                    Security Systems
+                  </span>
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="table-gap">&nbsp;</td>
+            </tr>
+
+            <tr>
+              <td class="footer-nav-items"></td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  eero WiFi
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Stream 4K Video<br />
+                    in Every Room
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Blink
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Smart Security <br />
+                    for Every Home
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Neighbors App
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Real-Time Crime<br />
+                    & Safety Alerts
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  Amazon Subscription Boxes
+                  <br />
+                  <span class="footer-nav-itemText">
+                    Top subscription boxes – right to your door
+                  </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items">
+                <a href="" class="nav-a">
+                  PillPack
+                  <br />
+                  <span class="footer-nav-itemText"> Pharmacy Simplified </span>
+                </a>
+              </td>
+
+              <td class="table-space"></td>
+
+              <td class="footer-nav-items"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="copyright-panel">
+        <a href="">Conditions of Use</a>
+        <a href="">Privacy Notice</a>
+        <a href=""> Your Ads Privacy Choices</a>
+        <br />
+        <p>© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </div>
+    </footer>
+  </body>
+</html>
